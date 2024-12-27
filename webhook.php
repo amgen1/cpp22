@@ -59,7 +59,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play XBB Now', 'web_app' => ['url' => 'https://app.companybro.com']],
+                    ['text' => 'Play XBB Now', 'web_app' => ['url' => 'https://xbbcoin-pink.vercel.app/']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/xbb_community']]
             ]
         ])
